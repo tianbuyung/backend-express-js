@@ -1,0 +1,23 @@
+{
+  "name": "backend-express-js",
+  "version": "1.0.0",
+  "description": "build a web server using express js framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tianbuyung/backend-express-js.git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js"
+  ],
+  "author": "Septian Maulana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tianbuyung/backend-express-js/issues"
+  },
+  "homepage": "https://github.com/tianbuyung/backend-express-js#readme"
+}
