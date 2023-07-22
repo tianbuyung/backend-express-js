@@ -4,6 +4,8 @@
   "description": "build a web server using express js framework",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
     "test": "jest"
   },
   "repository": {
