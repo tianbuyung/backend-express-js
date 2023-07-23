@@ -8,6 +8,7 @@ const path = require("path");
 
 // custom modules
 const { logger } = require("./middlewares/logEvents");
+const errorHandler = require("./middlewares/errorHandler");
 
 const PORT = process.env.PORT || 3500;
 
@@ -105,10 +106,7 @@ app.get("/*", (req, res) => {
 });
 
 // error handlers
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send(err.message);
-});
+app.use(errorHandler);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

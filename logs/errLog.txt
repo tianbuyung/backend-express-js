@@ -1,0 +1,1 @@
+20230723	19:55:06	d7cce26c-4b4c-4b11-92fb-1a2a8d4d98f2	Error: Not allowed by CORS
