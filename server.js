@@ -1,21 +1,41 @@
 // third party modules
 const express = require("express");
 const app = express();
+const cors = require("cors");
 
 // core modules
 const path = require("path");
 
 // custom modules
-const logEvents = require("./middlewares/logEvents");
+const { logger } = require("./middlewares/logEvents");
 
 const PORT = process.env.PORT || 3500;
 
 // custom middlewares logger
-app.use((req, res, next) => {
-  logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, "reqLog.txt");
-  console.log(`${req.method} ${req.url}`);
-  next();
-});
+app.use(logger);
+
+// Cross Origin Resource Sharing
+// app.use(cors()); for public api
+
+// cors with whitelist
+const whitelist = [
+  "https://www.yoursite.com",
+  "http://127.0.0.1:5500",
+  "http://localhost:3500",
+];
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (whitelist.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 
 // built-in middleware to handle urlencoded data
 // in other words, form data:
