@@ -36,3 +36,5 @@
 20230723	19:55:06	5d642316-df48-4d6c-8916-b56eea116001	GET	undefined	/
 20230723	19:56:18	2269a8f2-f6c3-4ffe-988f-5f99fee6518b	GET	undefined	/
 20230723	19:56:18	bba71507-3445-42a5-846e-6929a8df6260	GET	undefined	/css/style.css
+20230723	20:01:58	8e27abbd-21a5-41bb-b03a-5071111f2e80	GET	undefined	/test
+20230723	20:01:58	344e47c9-6a88-43fe-80a5-4186bfab20e6	GET	undefined	/css/style.css
