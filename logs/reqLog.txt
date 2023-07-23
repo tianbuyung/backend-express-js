@@ -1,0 +1,2 @@
+20230723	19:22:11	70de67be-f7ef-4aa9-93e7-7ab5e5742db6	GET	undefined	/
+20230723	19:22:11	fb4c2a30-6419-473a-95a2-9d1aad09d870	GET	undefined	/css/style.css

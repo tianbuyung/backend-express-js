@@ -5,7 +5,17 @@ const app = express();
 // core modules
 const path = require("path");
 
+// custom modules
+const logEvents = require("./middlewares/logEvents");
+
 const PORT = process.env.PORT || 3500;
+
+// custom middlewares logger
+app.use((req, res, next) => {
+  logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, "reqLog.txt");
+  console.log(`${req.method} ${req.url}`);
+  next();
+});
 
 // built-in middleware to handle urlencoded data
 // in other words, form data:
