@@ -26,6 +26,7 @@ const whitelist = [
 
 const corsOptions = {
   origin: (origin, callback) => {
+    // or handling undefined origin for dev mode
     if (whitelist.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
@@ -101,6 +102,12 @@ app.get("/chain(.html)?", [one, two, three]);
 // All routes not defined will be redirected to the 404
 app.get("/*", (req, res) => {
   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
+});
+
+// error handlers
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send(err.message);
 });
 
 app.listen(PORT, () => {
