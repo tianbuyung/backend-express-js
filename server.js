@@ -56,6 +56,7 @@ app.use("/subdir", express.static(path.join(__dirname, "/public")));
 app.use("/", require("./routes/root"));
 // import subdir router
 app.use("/subdir", require("./routes/subdir"));
+app.use("/employees", require("./routes/api/employees"));
 
 // All routes not defined will be redirected to the 404
 app.all("*", (req, res) => {

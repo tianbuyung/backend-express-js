@@ -63,3 +63,13 @@
 20230809	09:19:31	e588cd42-3440-41f8-9e04-07b41c064960	GET	undefined	/img/img1.jpg
 20230809	09:19:37	5cc5186b-d1f2-4962-b4b2-5e9354847963	GET	undefined	/
 20230809	09:19:37	6fa06ca9-27c3-4f23-ad23-1b0162cf335d	GET	undefined	/css/style.css
+20230809	09:39:02	106c8c00-cd18-4fde-ae38-7e0b91f018b1	GET	undefined	/employees
+20230809	09:40:20	924ea465-e993-4204-bc12-bf898e242f42	POST	undefined	/employees
+20230809	09:40:47	accd0def-d7c1-4bbe-99da-1b1a430cf078	POST	undefined	/employees
+20230809	09:41:38	de8065d0-f57f-4402-965b-94b071647a59	PUT	undefined	/employees
+20230809	09:41:47	af71eaac-7145-479b-9b52-eb03440cb9f2	POST	undefined	/employees
+20230809	09:42:14	c2b64c04-8155-42e8-a1fe-946c7f3d1fc1	POST	undefined	/employees
+20230809	09:42:44	e99f2d5d-fba0-489e-aa05-8eef4bd7284d	POST	undefined	/employees
+20230809	09:42:52	f61730a5-e0d9-49dd-a0b4-dff32a87efd3	PUT	undefined	/employees
+20230809	09:43:15	7d5315d3-dbe0-451f-ac03-b3ac24263844	DELETE	undefined	/employees
+20230809	09:43:34	c6b87987-56f3-4035-b008-61aa1a861492	GET	undefined	/employees/1
