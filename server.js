@@ -49,6 +49,8 @@ app.use(express.json());
 
 // built-in middleware for serve static files
 app.use(express.static(path.join(__dirname, "/public")));
+// link css or any static public files into subdir
+app.use("/subdir", express.static(path.join(__dirname, "/public")));
 
 // import subdir router
 app.use("/subdir", require("./routes/subdir"));

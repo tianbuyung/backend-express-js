@@ -43,3 +43,10 @@
 20230809	09:06:22	7b0f2041-6bb6-4774-b95d-e5247cc56b40	GET	undefined	/favicon.ico
 20230809	09:08:08	ec920e62-277d-482b-9fa0-823abddc4348	GET	undefined	/subdir
 20230809	09:08:17	45c9f52b-6ed9-4a7e-b732-7e0d6c61667a	GET	undefined	/subdir/test
+20230809	09:09:43	21135f38-bed5-44ce-8aa9-80e447e9192d	GET	undefined	/subdir/fail
+20230809	09:09:43	da5e63e5-f4ee-4155-8e54-9eb90b1b958d	GET	undefined	/subdir/css/style.css
+20230809	09:11:22	d3beed70-c2cb-473e-9f39-542b2bfe06b7	GET	undefined	/subdir/fail
+20230809	09:11:22	cf0c8cbc-f1e8-4ea4-8377-79d31954abf6	GET	undefined	/subdir/css/style.css
+20230809	09:11:41	a08b0fd6-19d6-4a40-bd3f-d36ef424e743	GET	undefined	/subdir
+20230809	09:11:41	8fc2c4fc-918e-4557-a275-c42719e677f0	GET	undefined	/subdir/
+20230809	09:11:45	bb34b872-079b-4a3a-9f54-85e3be8ace00	GET	undefined	/subdir/test
