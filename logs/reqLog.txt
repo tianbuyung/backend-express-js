@@ -50,3 +50,16 @@
 20230809	09:11:41	a08b0fd6-19d6-4a40-bd3f-d36ef424e743	GET	undefined	/subdir
 20230809	09:11:41	8fc2c4fc-918e-4557-a275-c42719e677f0	GET	undefined	/subdir/
 20230809	09:11:45	bb34b872-079b-4a3a-9f54-85e3be8ace00	GET	undefined	/subdir/test
+20230809	09:18:49	53e03852-e633-4f62-8073-d5dbcc1cce8b	GET	undefined	/
+20230809	09:18:49	b21780f3-ba4d-47da-a1ca-a9c95e3df707	GET	undefined	/css/style.css
+20230809	09:18:52	3b5c2f44-5520-426f-9bea-c6181749a7ab	GET	undefined	/chain
+20230809	09:19:16	ad76c86f-e11c-41cc-a991-61c80a55a057	GET	undefined	/hello
+20230809	09:19:25	e668fae8-3214-44dc-88cc-eaeadf3ea04e	GET	undefined	/old-page
+20230809	09:19:25	f911dc6b-52b5-4443-ae12-3d275f802a41	GET	undefined	/new-page.html
+20230809	09:19:25	d61df08c-0970-47f2-a859-685802e623f8	GET	undefined	/css/style.css
+20230809	09:19:25	8ebb4a3d-749f-4bf3-a453-6be6841613fc	GET	undefined	/img/img1.jpg
+20230809	09:19:31	9220c83e-670a-463a-b00c-a8dda8d44cac	GET	undefined	/new-page
+20230809	09:19:31	bf53dd93-a0c6-424c-9710-8452b2e6411a	GET	undefined	/css/style.css
+20230809	09:19:31	e588cd42-3440-41f8-9e04-07b41c064960	GET	undefined	/img/img1.jpg
+20230809	09:19:37	5cc5186b-d1f2-4962-b4b2-5e9354847963	GET	undefined	/
+20230809	09:19:37	6fa06ca9-27c3-4f23-ad23-1b0162cf335d	GET	undefined	/css/style.css
