@@ -50,6 +50,9 @@ app.use(express.json());
 // built-in middleware for serve static files
 app.use(express.static(path.join(__dirname, "/public")));
 
+// import subdir router
+app.use("/subdir", require("./routes/subdir"));
+
 // Define routes (express handling routes like waterfall)
 // app.get("/", (req, res) => {
 //   // res.sendFile("./views/index.html", { root: __dirname });

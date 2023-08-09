@@ -38,3 +38,8 @@
 20230723	19:56:18	bba71507-3445-42a5-846e-6929a8df6260	GET	undefined	/css/style.css
 20230723	20:01:58	8e27abbd-21a5-41bb-b03a-5071111f2e80	GET	undefined	/test
 20230723	20:01:58	344e47c9-6a88-43fe-80a5-4186bfab20e6	GET	undefined	/css/style.css
+20230809	09:06:21	28b14ea3-4e72-4c79-9751-1da81e35db37	GET	undefined	/
+20230809	09:06:22	00752471-2e41-43cc-9c48-0f207db448fb	GET	undefined	/css/style.css
+20230809	09:06:22	7b0f2041-6bb6-4774-b95d-e5247cc56b40	GET	undefined	/favicon.ico
+20230809	09:08:08	ec920e62-277d-482b-9fa0-823abddc4348	GET	undefined	/subdir
+20230809	09:08:17	45c9f52b-6ed9-4a7e-b732-7e0d6c61667a	GET	undefined	/subdir/test
