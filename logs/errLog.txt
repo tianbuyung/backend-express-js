@@ -1,1 +1,6 @@
 20230723	19:55:06	d7cce26c-4b4c-4b11-92fb-1a2a8d4d98f2	Error: Not allowed by CORS
+20230809	09:40:21	8d37f78c-d764-40e2-991b-2f39fc995df7	TypeError: req.json is not a function
+20230809	09:41:47	13e7711c-b5fd-4376-afb0-540833cb915f	SyntaxError: Unexpected token 
+ in JSON at position 54
+20230809	09:42:14	14024990-5a49-4508-a219-4606debeedc7	SyntaxError: Unexpected token 
+ in JSON at position 54
